@@ -1,0 +1,5 @@
+script:
+    - echo ${TRAVIS_COMMIT_RANGE}
+
+after_success:
+    - echo SUCCESS
